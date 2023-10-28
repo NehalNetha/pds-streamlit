@@ -24,8 +24,8 @@ import sklearn
 
 #if add_selectbox == 'Logistic Regression':
    # st.subheader("Logistic Regression")
-token = pickle.load(open("/Users/nehal/pds-final-streamlit/model-log-cv.pkl", "rb"))
-model = pickle.load(open("/Users/nehal/pds-final-streamlit/model-log-clf.pkl", "rb"))
+token = pickle.load(open("model-log-cv.pkl", "rb"))
+model = pickle.load(open("model-log-clf.pkl", "rb"))
 
     
 #elif add_selectbox == "Random Forest Classifier":
